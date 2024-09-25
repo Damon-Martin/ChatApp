@@ -1,0 +1,5 @@
+# Ignore node_modules
+./client-side/node_modules/
+
+# Ignore a specific subfolder (replace 'subfolder-name' with the actual name)
+./client-side/cypress/screenshots
