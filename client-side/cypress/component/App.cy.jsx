@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginPage from '../../src/pages/Login'
+import LoginPage from '../../src/pages/login-page'
 import { assert, expect, should } from 'chai';
 
 // App: Page Component
