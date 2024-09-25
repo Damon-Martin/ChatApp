@@ -1,12 +1,12 @@
 import React from 'react'
-import App from '../../src/pages/App'
+import LoginPage from '../../src/pages/Login'
 import { assert, expect, should } from 'chai';
 
 // App: Page Component
 // LoginForm: Form Component 
 describe('<App />', () => {
   it('test-page-component-renders', () => {
-    cy.mount(<App />)
+    cy.mount(<LoginPage />)
   })
 
   it('test-login-form-is-mounted-in-page-component', () => {
