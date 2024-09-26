@@ -2,8 +2,11 @@
     width: 100dvw;
     height: 100dvh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center;     /* Centers content horizontally */
     background-image: url('../../../public/img/vanishing-stripes.svg');
+    background-size: cover;
     color: #ffffff;
 }
 
