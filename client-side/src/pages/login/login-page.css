@@ -1,0 +1,26 @@
+.login-page {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    background-image: url('../../../public/img/vanishing-stripes.svg');
+    color: #ffffff;
+}
+
+.login-btn {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #105c8f;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #e0e0e0;
+}

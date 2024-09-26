@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import LoginPage from './pages/login-page';
 import reportWebVitals from './reportWebVitals';
+import LoginPage from './pages/login/login-page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginPage />
+    <LoginPage/>
   </React.StrictMode>
 );
 
