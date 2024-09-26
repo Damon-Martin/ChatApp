@@ -1,7 +1,6 @@
 import LoginCard from '../../components/login-card';
 import './login-page.css';
 
-import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 function LoginPage() {
     let width = '50%'
     let height = '70%'
