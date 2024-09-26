@@ -1,11 +1,9 @@
 // Send the dimensions as a str as there are lots of ways to do size like 'px', '%' etc...
 // color is a string
 // Note: calling content children is important anything else will not work
-
-
 import React, { useState, useEffect } from 'react';
 
-function RoundagleCard({ children, width = '80%', height = '70%', color = 'grey' }) {
+function LoginCard({ width = '80%', height = '70%', color = 'grey' }) {
     const [cardWidth, setCardWidth] = useState(width);
     const [cardHeight, setCardHeight] = useState(height);
 
@@ -16,7 +14,7 @@ function RoundagleCard({ children, width = '80%', height = '70%', color = 'grey'
         setCardHeight(height);
         if (windowWidth < 1100) {
             setCardWidth('85%');
-            setCardHeight('70%');
+            setCardHeight('80%');
         }
     };
 
@@ -46,11 +44,10 @@ function RoundagleCard({ children, width = '80%', height = '70%', color = 'grey'
 
     return (
         <div style={wrapper}>
-            {children}
         </div>
     );
 }
 
-export default RoundagleCard;
+export default LoginCard;
 
 
