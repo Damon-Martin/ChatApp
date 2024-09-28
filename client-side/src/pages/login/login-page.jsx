@@ -6,7 +6,7 @@ function LoginPage() {
     let height = '70%'
     return (
         <div className='login-page'>
-            <LoginCard width={width} height={height} color='#04f'/>
+            <LoginCard width={width} height={height}/>
         </div>
     );
   }

@@ -2,7 +2,8 @@
 // color is a string
 // Note: calling content children is important anything else will not work
 import React, { useState, useEffect, useCallback } from 'react';
-import TextInput from '../components-small/text-input';
+import TextInput from '../components-small/text-input/text-input';
+import LoginBtn from '../components-small/login-btn/login-btn';
 
 function LoginCard({ width = '80%', height = '70%', color = 'grey' }) {
     const [cardWidth, setCardWidth] = useState(width);
@@ -48,6 +49,7 @@ function LoginCard({ width = '80%', height = '70%', color = 'grey' }) {
             <h1>Login</h1>
             <TextInput placeholder={'Username'} required={true} />
             <TextInput placeholder={'Password'} type='password' required={true} />
+            <LoginBtn/><LoginBtn/>
         </form>
     );
 }
