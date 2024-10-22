@@ -3,7 +3,12 @@ const styles = {
     height: '100%',
 }
 
-function LoginBtn() {
+function LoginBtn({text}) {
+    if ({text}) {
+        return (
+            <button style={styles}>{text}</button>
+        )
+    }
     return (
         <button style={styles}/>
     )

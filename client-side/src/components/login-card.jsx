@@ -59,8 +59,8 @@ function LoginCard({ width = '80%', height = '70%', color = 'grey' }) {
             
             {/* Button container aligned to the right */}
             <div style={buttonContainerStyle}>
-                <LoginBtn />
-                <LoginBtn />
+                <LoginBtn text='Login'/>
+                <LoginBtn text='Register'/>
             </div>
         </form>
     );
