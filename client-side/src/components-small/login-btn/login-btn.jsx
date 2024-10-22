@@ -1,6 +1,6 @@
 const styles = {
-    width: '20%',
-    height: '10%',
+    width: '35%',
+    height: '100%',
 }
 
 function LoginBtn() {
